@@ -2,7 +2,6 @@
 
 A simple memory card matching game built with vanilla JavaScript, HTML, and CSS. Players flip cards to find matching pairs, testing their memory and concentration.
 
-![Memory Game Screenshot](/api/placeholder/600/400)
 
 ## Features
 

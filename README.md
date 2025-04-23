@@ -2,7 +2,6 @@
 
 A simple memory card matching game built with vanilla JavaScript, HTML, and CSS. Players flip cards to find matching pairs, testing their memory and concentration.
 
-
 ## Features
 
 - Card flipping animations
@@ -21,19 +20,6 @@ A simple memory card matching game built with vanilla JavaScript, HTML, and CSS.
 ## Installation
 
 No installation required. Simply clone the repository and open `index.html` in your browser:
-
-
-## Project Structure
-
-```
-memory-card-game/
-├── css/
-│   └── style.css       # Styling and card flip animations
-├── images/             # Card images
-├── js/
-│   └── script.js       # Game logic and functionality
-└── index.html          # Main HTML structure
-```
 
 ## Browser Compatibility
 

@@ -1,0 +1,42 @@
+body {
+    /* height: 100vh; */
+    background-color: beige;;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 130px 130px 130px 130px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    grid-gap: 30px;
+}
+.card-item {
+    width: 115px;
+    height: 115px;
+    border-radius: 10px;
+    border: 7px solid #333;
+    background-color: goldenrod;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+.card-item img {
+    width: 115px;
+    height: 115px;
+    background-color: #fff;
+    object-fit: contain;
+    display: none;
+}
+/* .card-item.flipped {
+} */
+.card-item.flipped img {
+    display: block;
+    transform: rotateY(180deg);
+}
+
+
+
+/* .card-item.matched {
+    background-color: lightgreen;
+    cursor: default;
+} */
